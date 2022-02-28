@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- g-font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,200&display=swap"
+        rel="stylesheet">
+    <!-- bootstrap -->
+    <!-- font-awsm -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="css/mortgage.css">
+
+    <title> Mortgage</title>
+
+</head>
+
+<body>
+    <header>
+        <!-- menu part start-->
+        <div class="top-area">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+                    <!-- logo -->
+                    <a class="navbar-brand" href="index.html"><img src="img/yt1.png" width="65" height="43"
+                            class="d-inline-block align-top" alt=""></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link p-2" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link p-2" href="#">Alert <i class="fa fa-bell"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="login.html"><button type="button" class="btn btn-danger p-2">Login <i
+                                            class="fa fa-user-circle-o"></i></button></a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- menu part end-->
+    </header>
+    <!-- header picture -->
+    <div class="container-fluid" style="padding-top:70px;">
+        <div class="row">
+            <div style=" opacity: 80%; height: 700px; width: auto;">
+                <img style=" opacity: 80%; height: 100%; width: auto;" class="d-block w-100 sliders-vh"
+                    src="img/mortgage.jpg">
+            </div>
+            <!-- welcome-text -->
+            <div class="welcome-text position-absolute text-center">
+                <div class="col-12">
+                    <h1 class="text-center " style=" color: rgb(0, 0, 0); font: size 52;"> Searching a safe way for
+                    </h1>
+                    <h1 style="color: rgb(0, 0, 0); font: size 52;"> <b>Home Loan?</b>
+                    </h1>
+
+                    <br>
+                    <div class="d-flex">
+                        <div style="padding: 20px;">
+                            <button type="button" class="btn btn-danger btn-lg">Apply for loan</button>
+                        </div>
+                        <div style="padding: 20px;">
+                            <button type="button" class="btn btn-outline-danger btn-lg">View All Banks</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- welcome-text -->
+        </div>
+    </div>
+    <!-- header picture end -->
+    <!-- Calculator -->
+    <div class="container" style="padding: 20px;">
+        <div class="row">
+            <div class="col-md-12" style="padding: 30px;">
+                <h2 style="text-align: center;">Home Loan Calculator
+                </h2> <br>
+                <h5 style="text-align: center;">Calculate your Home Loan Interest Rate according to bank and your
+                    specific requirements.</h5>
+            </div>
+        </div>
+        <div class="row" style="height: 550px;">
+            <!--Range starts here-->
+            <div class="col-md-6" style="border: black 3px solid;">
+                <div style="padding-left: 60px;">
+                    <div class="row">
+                        <div style="padding: 8px;">
+                            <span class="block titel"><b>Total price</b></span> <br>
+                            <input style="width:350px;" type="text"> <br>
+                            <div class="range">
+                                <div class="sliderValue">
+                                    <span>100</span>
+                                </div>
+                                <div class="field">
+                                    <div class="value left">0</div>
+                                    <input type="range" min="10" max="200" value="100" steps="1">
+                                    <div class="value right">200</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style="padding: 8px;">
+                        <span class="block titel"> <b>Loan period</b> </span> <br>
+                        <input style="width:350px;" type="text"> <br>
+                        <div class="range">
+                            <div class="sliderValue">
+                                <span>100</span>
+                            </div>
+                            <div class="field">
+                                <div class="value left">0</div>
+                                <input type="range" min="10" max="200" value="100" steps="1">
+                                <div class="value right">200</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style="padding: 8px;">
+                        <span class="block titel"> <b>Down payment</b> </span> <br>
+                        <input style="width:350px;" type="text"> <br>
+                        <div class="range">
+                            <div class="sliderValue">
+                                <span>100</span>
+                            </div>
+                            <div class="field">
+                                <div class="value left">0</div>
+                                <input type="range" min="10" max="200" value="100" steps="1">
+                                <div class="value right">200</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style="padding: 8px;">
+                        <span class="block titel"> <b>Interest Rate</b> </span> <br>
+                        <input style="width:350px;" type="text"> <br>
+                        <div class="range">
+                            <div class="sliderValue">
+                                <span>100</span>
+                            </div>
+                            <div class="field">
+                                <div class="value left">0</div>
+                                <input type="range" min="10" max="200" value="100" steps="1">
+                                <div class="value right">200</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="text-align: center;">
+                    <button type=" button" class="btn btn-danger btn-lg">Apply for Loan</button>
+                </div>
+
+            </div>
+            <!--Range ends here-->
+
+            <div class=" col-md-6" style="border: black 3px solid; text-align: center;">
+                <div style="padding: 10px; padding-top: 30px;">
+                    <span class="block titel"> Monthly Payment </span> <br>
+                    <span class="block currency">BDT 125000 </span>
+                </div>
+                <hr style="background-color: black;">
+                <div style="padding: 20px; padding-top: 30px;">
+                    <span class="block titel"> Monthly Payment </span> <br>
+                    <span class="block currency">BDT 125000 </span>
+                </div>
+                <hr style="background-color: black;">
+                <div style="padding: 20px; padding-top: 30px;">
+                    <span class="block titel"> Monthly Payment </span> <br>
+                    <span class="block currency">BDT 125000 </span>
+                </div>
+                <hr>
+                <div style="padding-top: 90px;">
+                    <button type="button" class="btn btn-danger btn-lg">View All Banks</button>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Calculator end here-->
+        <!-- Apply Loan-->
+
+        <div class="row" style="padding: 80px;">
+            <div class="col-md-12">
+                <h2 style="text-align: center;">How to apply for home loan</h2> <br>
+                <h5 style="text-align: center;">Discover how to get the home loan in Bangladesh that is right for
+                    you!
+                    Apply here.</h5>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluide">
+        <div class="row">
+            <div class="col-md-6" style="padding: 0px 10px 0px 60px;">
+                <div class="embed-responsive embed-responsive-21by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/cnXapYkboRQ"></iframe>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <h4 style="text-align: center;">Application Form</h4>
+                <form style="padding-left: 35%;">
+
+                    <div style="padding: 10px;">
+                        <span><b>Name*</b></span> <br>
+                        <input style="width: 250px;" type="text" placeholder="Enter your Name">
+                    </div>
+                    <div style="padding: 10px;">
+                        <span><b>Phone No*</b></span> <br>
+                        <input style="width: 250px;" type="text" placeholder="Enter your Call">
+                    </div>
+                    <div style="padding: 10px;">
+                        <span><b>Email*</b></span> <br>
+                        <input style="width: 250px;" type="text" placeholder="Enter your Email">
+                    </div>
+                    <div style="padding: 10px;">
+                        <span><b>Property Id*</b></span> <br>
+                        <input style="width: 250px;" type="text" placeholder="Enter property ID">
+                    </div>
+                    <div style="padding-left: 90px;">
+                        <button type="button" class="btn btn-danger btn-lg">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Apply Loan End here-->
+
+    <div class="container">
+        <div class="row" style="padding: 20px;">
+            <div class="col-md-12">
+                <h2 style="text-align: center;"> Our Partners </h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 d-flex" style="border: solid 1px black; height: 150px; padding: 40px; ">
+                <div class="col-md-3">
+                    <a href="">
+                        <img width="200px" src="img/dhakaBank.png" alt="">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="">
+                        <img width="200px" src="img/abBank.png" alt="">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="">
+                        <img width="200px" src="img/hsbc.png" alt="">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="">
+                        <img width="200px" src="img/bracBank.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Footer -->
+    <footer class="footer-distributed">
+
+        <div class="footer-left">
+
+            <h3>Friends<span>Brokerage</span></h3>
+
+            <p class="footer-links">
+                <a href="#">Home</a> ·
+                <a href="#">About</a> ·
+                <a href="#">Faq</a> ·
+                <a href="#">Contact</a>
+            </p>
+
+            <div class="inner">
+                <div class="form-group">
+                    <input name="formfields[nl_email]" id="nl_email" class="validate[required]"
+                        placeholder="Enter your email address" type="text" value=""> <label for="nl_email"
+                        class="sr-only">Email Address</label> <button type="submit"
+                        class="btn btn-motive">Subscribe</button>
+                </div>
+            </div>
+            <br>
+
+
+        </div>
+
+        <div class="footer-center">
+
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p>Nikunja-2, Dhaka, Bangladesh</p>
+            </div>
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>+8801777777777</p>
+            </div>
+
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="/cdn-cgi/l/email-protection#d2a1a7a2a2bda0a692b1bdbfa2b3bcabfcb1bdbf"><span
+                            class="__cf_email__"
+                            data-cfemail="4c3435360c2b212d2520622f2321">[email&#160;protected]</span></a></p>
+            </div>
+
+        </div>
+
+        <div class="footer-right">
+
+            <p class="footer-company-about">
+                <span>About Friends Brokerage</span> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet,
+                voluptatibus.
+            </p>
+
+            <div class="footer-icons">
+
+                <a style="background-color: #1873eb;" href="#"><i class="fa fa-facebook"></i></a>
+                <a style="background-color: #e76183;" href="#"><i class="fa fa-instagram"></i></a>
+                <a style="background-color: #fe0000;" href="#"><i class="fa fa-youtube-play"></i></a>
+                <a style="background-color: #0077b5;" href="#"><i class="fa fa-linkedin"></i></a>
+
+            </div>
+
+        </div>
+        <hr style="background-color: aqua;">
+        <p style="display: flex; justify-content: center;" class="footer-company-name">Friends Brokerage &copy; 2021
+        </p>
+    </footer>
+    <!-- jQuery -->
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <!-- popper-js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <!-- bootstrap-js -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+    <!-- image-gallery-js -->
+    <!-- slider-js -->
+    <script>
+        const slideValue = document.querySelector("span");
+        const inputSlider = document.querySelector("input");
+        inputSlider.oninput = (() => {
+            let value = inputSlider.value;
+            slideValue.textContent = value;
+            slideValue.style.left = (value / 2) + "%";
+            slideValue.classList.add("show");
+        });
+        inputSlider.onblur = (() => {
+            slideValue.classList.remove("show");
+        });
+    </script>
+</body>
+
+</html>
